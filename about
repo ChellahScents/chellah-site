@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - Chellah Scents</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header><a href="index.html">← Back to Home</a></header>
+  <main>
+    <h1>About Chellah Scents</h1>
+    <p>Chellah Scents blends creativity, cultural intelligence, and technical know-how to offer bespoke services across several domains.</p>
+    <p>With Haute Traduction as a flagship division, we specialize in premium linguistic services, while also offering robust tech consulting and 3D prototyping.</p>
+  </main>
+</body>
+</html>
