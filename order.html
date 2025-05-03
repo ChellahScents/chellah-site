@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order - Chellah Scents</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main>
+    <h1>Place an Order</h1>
+    <p>Submit your transcription or translation request. Turnaround is within 48 hours (FIFO).</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="your-paypal-email@example.com">
+      <input type="hidden" name="item_name" value="Audio Service">
+      <input type="hidden" name="amount" value="15.00">
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="submit" value="Pay with PayPal">
+    </form>
+  </main>
+</body>
+</html>
