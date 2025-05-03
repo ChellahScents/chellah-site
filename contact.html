@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact • Chellah Scents</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="nav-logo">
+        <img src="img/logo.png" alt="Chellah Scents Logo">
+      </a>
+      <button class="nav-toggle" aria-label="toggle menu">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <h2>Get in Touch</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label>Name<br>
+          <input type="text" name="name" required>
+        </label><br>
+        <label>Email<br>
+          <input type="email" name="email" required>
+        </label><br>
+        <label>Message<br>
+          <textarea name="message" rows="5" required></textarea>
+        </label><br>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Chellah Scents · Rooted Past, Soaring Future</p>
+  </footer>
+
+</body>
+</html>
